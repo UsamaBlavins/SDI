@@ -20,7 +20,6 @@ namespace SDI_REVIEW {
 	private:
 		std::string suitName(int suitNum);
         std::string faceName(int faceVal);
-        
         static const std::vector<std::string> faceNames;
         static const std::vector<std::string> suitNames;
     };

@@ -16,7 +16,7 @@ namespace SDI_REVIEW {
         assert(cardNum < 52);
         faceValue_ = cardNum % 13;
         suit_ = cardNum / 13;
-    }
+    } // This should be left public since as deck.h uses the Card constructor
     
     std::string Card::toString() {
         std::string result;
