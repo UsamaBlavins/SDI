@@ -42,5 +42,9 @@ namespace SDI_REVIEW {
         return (Card::faceNames[faceVal]);
     }
     
+    Card::Card() {
+        
+    }
+    
 }  //namespace
 #endif

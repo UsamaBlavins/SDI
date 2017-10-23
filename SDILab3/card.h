@@ -13,6 +13,7 @@ namespace SDI_REVIEW {
 		//interface functions
         
 	public:
+        Card ();
 		Card(int cardNum);			//Constructor (parameterised)
 		std::string toString();
 		//private functions

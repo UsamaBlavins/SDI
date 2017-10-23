@@ -26,6 +26,10 @@ namespace SDI_REVIEW {
         theDeck_.pop_back();
         return result;
     }
+    
+    Deck::~Deck() {
+        
+    }
 
 }  //namespace
 #endif

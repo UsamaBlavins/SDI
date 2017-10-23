@@ -13,6 +13,7 @@ namespace SDI_REVIEW {
         
 	public:
 		Deck();
+        ~Deck();
 		void shuffle();
 		Card nextCard();
 	};
