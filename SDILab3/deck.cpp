@@ -12,8 +12,13 @@
 namespace SDI_REVIEW {
 
     Deck::Deck(){
-        for (int cardNum = 0; cardNum < 52; ++cardNum)
+        for (int cardNum = 0; cardNum < 52; ++cardNum) {
             theDeck_.push_back(Card(cardNum));
+        }
+        shuffle();
+        if (theDeck_.empty()) {
+            exit(1);
+        }
     }
     
     void Deck::shuffle(){
