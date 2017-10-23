@@ -16,9 +16,6 @@ namespace SDI_REVIEW {
             theDeck_.push_back(Card(cardNum));
         }
         shuffle();
-        if (theDeck_.empty()) {
-            exit(1);
-        }
     }
     
     void Deck::shuffle(){
@@ -29,6 +26,9 @@ namespace SDI_REVIEW {
         assert(! theDeck_.empty());
         Card result = theDeck_.back();
         theDeck_.pop_back();
+        if (theDeck_.empty()) {
+            Deck();
+        }
         return result;
     }
     
