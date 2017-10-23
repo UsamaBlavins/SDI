@@ -22,6 +22,7 @@ namespace SDI_REVIEW {
         std::string faceName(int faceVal);
         
         static const std::vector<std::string> faceNames;
+        static const std::vector<std::string> suitNames;
     };
 }  //namespace
 #endif

@@ -11,6 +11,7 @@
 namespace SDI_REVIEW {
     const std::vector<std::string> Card::faceNames = { "Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King" };
     //this is the second task
+    
     Card::Card(int cardNum) {
         assert(cardNum < 52);
         faceValue_ = cardNum % 13;
@@ -26,7 +27,7 @@ namespace SDI_REVIEW {
     }
     
     std::string Card::suitName(int suitNum) {
-        std::vector<std::string> suitNames = { "Hearts", "Clubs", "Diamonds", "Spades" };
+        const std::vector<std::string> suitNames = { "Hearts", "Clubs", "Diamonds", "Spades" };
         assert(suitNum < 4);
         return (suitNames[suitNum]);
     }
@@ -35,5 +36,6 @@ namespace SDI_REVIEW {
         assert(faceVal < 13);
         return (Card::faceNames[faceVal]);
     }
+    
 }  //namespace
 #endif
