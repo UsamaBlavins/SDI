@@ -25,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8A0031071F9EBC2C003B929B /* hand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hand.h; sourceTree = "<group>"; };
 		8A4EE6931F95529800C33E07 /* SDILab3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDILab3; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4EE6961F95529800C33E07 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8A4EE69D1F96105800C33E07 /* card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = card.h; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 				8A4EE69D1F96105800C33E07 /* card.h */,
 				8A4EE69E1F96105800C33E07 /* deck.cpp */,
 				8A4EE6A01F96105800C33E07 /* deck.h */,
+				8A0031071F9EBC2C003B929B /* hand.h */,
 				8A4EE6961F95529800C33E07 /* main.cpp */,
 			);
 			path = SDILab3;
