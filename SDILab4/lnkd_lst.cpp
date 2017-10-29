@@ -34,6 +34,10 @@ int main() {
  temp->next = list;
  temp = temp->next;
  list = new node;
+ list->data = 17;
+ temp->next = list;
+ temp = temp->next;
+ list = new node;
  list->data = 5;
  temp->next = list;
  temp = temp->next;
